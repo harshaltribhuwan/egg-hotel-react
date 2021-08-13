@@ -9,7 +9,10 @@ const About = () => {
             We are <span className="text-yellow-500">Eggcellient</span>{" "}
           </h2>
           <p className="mb-4">We are known for special egg food.</p>
-          <span>Make sure you visit us.</span>
+          <span className="font-extralight">
+            Make sure you{" "}
+            <span className="text-yellow-500 underline">visit</span> us.
+          </span>
         </div>
       </div>
     </div>

@@ -10,7 +10,11 @@ const Menu = () => {
   return (
     <div>
       <div className="menu-card">
-        <img src={ImageOne} alt="egg" className="h-full rounded mb-10 shadow" />
+        <img
+          src={ImageOne}
+          alt="egg"
+          className="h-72 w-48 rounded-xl mb-10 shadow"
+        />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Muffins</h2>
           <p className="mb-2">Cripsy, delicious, and nutritious</p>
@@ -19,7 +23,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline rounded-lg"
+            className="bg-yellow-500 hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out  text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline rounded-lg"
             type="button"
           >
             Order
@@ -27,7 +31,11 @@ const Menu = () => {
         </div>
       </div>
       <div className="menu-card">
-        <img src={ImageTwo} alt="egg" className="h-full rounded mb-10 shadow" />
+        <img
+          src={ImageTwo}
+          alt="egg"
+          className="h-72 w-48 rounded-xl mb-10 shadow"
+        />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Salad</h2>
           <p className="mb-2">Yammy, Flavorful, and Mouth-watering</p>
@@ -36,7 +44,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out  text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order
@@ -47,38 +55,17 @@ const Menu = () => {
         <img
           src={ImageThree}
           alt="egg"
-          className="h-full rounded mb-10 shadow"
+          className="h-72 w-48 rounded-xl mb-10 shadow"
         />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Cuttlet</h2>
-          <p className="mb-2">Cripsy, delicious, and nutritious</p>
+          <p className="mb-2">Scrambled, Healthy, and Tasty</p>
           <span>$21</span>
         </div>
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
-            type="button"
-          >
-            Order
-          </Link>
-        </div>
-      </div>
-      <div className="menu-card">
-        <img
-          src={ImageFour}
-          alt="egg"
-          className="h-full rounded mb-10 shadow"
-        />
-        <div className="center-content">
-          <h2 className="text-2xl mb-2">Egg Plain</h2>
-          <p className="mb-2">Cripsy, delicious, and nutritious</p>
-          <span>$28</span>
-        </div>
-        <div className="flex justify-center mt-4">
-          <Link
-            to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out  text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order
@@ -89,11 +76,32 @@ const Menu = () => {
         <img
           src={ImageFive}
           alt="egg"
-          className="h-full rounded mb-10 shadow"
+          className="h-72 w-48 rounded-xl mb-10 shadow"
         />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Special</h2>
-          <p className="mb-2">Cripsy, delicious, and nutritious</p>
+          <p className="mb-2">Fried, Elegant, and Proteinfull</p>
+          <span>$28</span>
+        </div>
+        <div className="flex justify-center mt-4">
+          <Link
+            to="/"
+            className="bg-yellow-500 hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out  text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+            type="button"
+          >
+            Order
+          </Link>
+        </div>
+      </div>
+      <div className="menu-card">
+        <img
+          src={ImageFour}
+          alt="egg"
+          className="h-72 w-48 rounded-xl mb-10 shadow"
+        />
+        <div className="center-content">
+          <h2 className="text-2xl mb-2">Egg Plain</h2>
+          <p className="mb-2">Yammy, Scrambled, and Tasty</p>
           <span>$48</span>
         </div>
         <div className="flex justify-center mt-4">

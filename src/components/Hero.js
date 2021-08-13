@@ -8,7 +8,7 @@ const Hero = () => {
         EGG<span className="text-yellow-500">CELLENT</span>
       </h1>
       <Link
-        className="py-3 px-5 bg-yellow-500 rounded-full text-2xl hover:bg-yellow-300 transition duration-300 ease-in-out flex items-center animate-bounce"
+        className="py-3 px-5 bg-yellow-500 rounded-full text-2xl hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out flex items-center animate-bounce"
         to="/menu"
       >
         Order Now{" "}

@@ -37,7 +37,7 @@ const FormContent = () => {
         <div className="flex justify-center">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-black hover:text-yellow-500 transition duration-300 ease-in-out  text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
             type="button"
           >
             Send

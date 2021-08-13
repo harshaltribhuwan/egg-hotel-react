@@ -1,6 +1,7 @@
 {
   "name": "tailwindcss-react-v1",
   "version": "0.1.0",
+  "homepage": "https://harshaltribhuwan.github.io/egg-hotel-react",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
@@ -19,6 +20,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",

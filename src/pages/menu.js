@@ -19,7 +19,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline rounded-lg"
             type="button"
           >
             Order
@@ -30,13 +30,13 @@ const Menu = () => {
         <img src={ImageTwo} alt="egg" className="h-full rounded mb-10 shadow" />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Salad</h2>
-          <p className="mb-2">Cripsy, delicious, and nutritious</p>
+          <p className="mb-2">Yammy, Flavorful, and Mouth-watering</p>
           <span>$18</span>
         </div>
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order
@@ -57,7 +57,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order
@@ -78,7 +78,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order
@@ -99,7 +99,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <Link
             to="/"
-            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
             type="button"
           >
             Order

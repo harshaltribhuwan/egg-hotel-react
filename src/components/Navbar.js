@@ -5,10 +5,10 @@ const Navbar = ({ toggle }) => {
   return (
     <div className="py-8">
       <nav
-        className="flex justify-between items-center h-16 bg-white text-black top-0 fixed inset-x-0 shadow-sm font-mono"
+        className="flex justify-between items-center h-16 bg-white text-black top-0 fixed inset-x-0 shadow-sm font-lora"
         role="navigation"
       >
-        <Link to="/" className="pl-8 font-serif text-2xl">
+        <Link to="/" className="pl-8 font-lora text-2xl">
           EGG<span className="text-sm text-yellow-500">CELLENT</span>
         </Link>
         <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>

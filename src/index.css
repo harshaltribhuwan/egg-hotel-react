@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .menu-card {
-  @apply flex flex-col sm:flex-row justify-center sm:justify-around items-center bg-white h-screen font-mono py-36;
+  @apply flex flex-col md:flex-row justify-center md:justify-around items-center bg-white h-screen font-mono py-36;
 }
 
 .center-content {

@@ -5,7 +5,7 @@ const Navbar = ({ toggle }) => {
   return (
     <div className="py-8">
       <nav
-        className="flex justify-between items-center h-16 bg-white text-black top-0 fixed inset-x-0 shadow-sm font-lora"
+        className="flex justify-between items-center h-16 bg-white text-black top-0 fixed inset-x-0 shadow font-lora"
         role="navigation"
       >
         <Link to="/" className="pl-8 font-lora text-2xl">

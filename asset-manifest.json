@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/egg-hotel-react/static/css/main.adede1b7.chunk.css",
+    "main.js": "/egg-hotel-react/static/js/main.a1d33c74.chunk.js",
+    "main.js.map": "/egg-hotel-react/static/js/main.a1d33c74.chunk.js.map",
+    "runtime-main.js": "/egg-hotel-react/static/js/runtime-main.29bab3f3.js",
+    "runtime-main.js.map": "/egg-hotel-react/static/js/runtime-main.29bab3f3.js.map",
+    "static/js/2.7da88c5d.chunk.js": "/egg-hotel-react/static/js/2.7da88c5d.chunk.js",
+    "static/js/2.7da88c5d.chunk.js.map": "/egg-hotel-react/static/js/2.7da88c5d.chunk.js.map",
+    "static/js/3.fc0b1052.chunk.js": "/egg-hotel-react/static/js/3.fc0b1052.chunk.js",
+    "static/js/3.fc0b1052.chunk.js.map": "/egg-hotel-react/static/js/3.fc0b1052.chunk.js.map",
+    "index.html": "/egg-hotel-react/index.html",
+    "static/css/main.adede1b7.chunk.css.map": "/egg-hotel-react/static/css/main.adede1b7.chunk.css.map",
+    "static/js/2.7da88c5d.chunk.js.LICENSE.txt": "/egg-hotel-react/static/js/2.7da88c5d.chunk.js.LICENSE.txt",
+    "static/media/egg-2.b8045f99.jpg": "/egg-hotel-react/static/media/egg-2.b8045f99.jpg",
+    "static/media/egg-3.5db8fa27.jpg": "/egg-hotel-react/static/media/egg-3.5db8fa27.jpg",
+    "static/media/egg-4.0af35287.jpg": "/egg-hotel-react/static/media/egg-4.0af35287.jpg",
+    "static/media/egg-5.4873651f.jpg": "/egg-hotel-react/static/media/egg-5.4873651f.jpg",
+    "static/media/egg-6.e0a29447.jpg": "/egg-hotel-react/static/media/egg-6.e0a29447.jpg",
+    "static/media/egg.4d911d05.jpg": "/egg-hotel-react/static/media/egg.4d911d05.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29bab3f3.js",
+    "static/js/2.7da88c5d.chunk.js",
+    "static/css/main.adede1b7.chunk.css",
+    "static/js/main.a1d33c74.chunk.js"
+  ]
+}
